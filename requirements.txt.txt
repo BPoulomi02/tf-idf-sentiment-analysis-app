@@ -1,2 +1,2 @@
-c:\python312\lib\site-packages
+python312
 joblib
