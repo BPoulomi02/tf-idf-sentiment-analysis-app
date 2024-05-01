@@ -16,9 +16,9 @@ user_input=st.text_area("Enter your text here:")
 #Prediction button
 if st.button("Predict"):
     #Perform sentiment prediction
-    print(user_input)
+    #print(user_input)
     predicted_sentiment=model.predict([user_input])[0]
-    print("Predicted label:"+str(predicted_sentiment))
+    #print("Predicted label:"+str(predicted_sentiment))
     predicted_sentiment_label=sentiment_labels[str(predicted_sentiment)]
 
     #Display predicted sentiment
